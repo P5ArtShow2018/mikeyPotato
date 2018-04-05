@@ -7,7 +7,7 @@ function preload() {
   potato = loadImage("assets/potato.png")
 }
 function setup() {
-  createCanvas(900,900)
+ createCanvas(windowWidth,windowHeight)
   imageMode(CENTER)
   
 }
